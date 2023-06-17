@@ -1,0 +1,15 @@
+.hero__image{
+   width: 18.75rem;
+   border-radius: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+   .hero__image{
+      width: 9.125rem;
+   }
+}
+@media screen and (max-width: 768px) {
+   .hero__image {
+      width: 6.125rem;
+   }
+}

@@ -1,0 +1,8 @@
+.hero__description__social__item{
+   margin-right: 1.5rem;
+   flex-grow: 1;
+}
+
+.hero__description__social__item:last-child{
+   margin-right: 0;
+}

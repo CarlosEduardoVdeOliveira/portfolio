@@ -1,0 +1,35 @@
+@import url('./hero-description.css');
+@import url('./hero-description-title.css');
+@import url('./hero-description-description.css');
+@import url('./hero-description-socials-list.css');
+@import url('./hero-description-social-item.css');
+@import url('./hero-description-social-link.css');
+@import url('./hero-image.css');
+
+.hero{
+   display: flex;
+   position: relative;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5.5rem;
+}
+@media screen and (max-width: 1080px) {
+   .hero {
+      flex-direction: column-reverse;
+      margin-top: 3rem;
+      align-items: start;
+      justify-content: left;
+      padding: 0;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .hero {
+      flex-direction: column-reverse;
+      margin-top: 3rem;
+      align-items: start;
+      justify-content: left;
+      padding: 0;
+   }
+}

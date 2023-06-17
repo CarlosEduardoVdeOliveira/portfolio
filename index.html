@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta charset="UTF-8">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta charset="UTF-8" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="icon" type="image/png" href="./assets/icon.svg" />
    <!-- Reset css -->
-   <link rel="stylesheet" href="./styles/reset.css">
+   <link rel="stylesheet" href="./styles/reset.css" />
+   <!-- Container -->
+   <link rel="stylesheet" href="./styles/main.css" />
    <!-- Menu css -->
-   <link rel="stylesheet" href="./styles/menu/menu.css">
+   <link rel="stylesheet" href="./styles/menu/menu.css" />
+   <!-- Hero css -->
+   <link rel="stylesheet" href="./styles/hero/hero.css">
    <title>Carlos Eduardo</title>
 </head>
+
 <body>
-   <header class="menu">
+   <header class="menu container">
       <div class="menu__logo">
-         <img class="menu__logo__image" src="./assets/logo.svg" alt="">
+         <img class="menu__logo__image" src="./assets/logo.svg" alt="" />
          <p class="menu__logo__title">Carlos Eduardo</p>
       </div>
       <nav class="menu__container">
          <ul class="menu__container__list">
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#sobre">
-                  Sobre mim
-               </a>
+               <a class="menu__container__link" href="#sobre"> Sobre mim </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#skils">
-                  Skils
-               </a>
+               <a class="menu__container__link" href="#skils"> Skils </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#hobbies">
-                  Hobbies
-               </a>
+               <a class="menu__container__link" href="#hobbies"> Hobbies </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#formações">
-                  Formações
-               </a>
+               <a class="menu__container__link" href="#formações"> Formações </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#projetos">
-                  Projetos
-               </a>
+               <a class="menu__container__link" href="#projetos"> Projetos </a>
             </li>
             <li class="menu__container__item">
                <a class="menu__container__link" href="#contato">
@@ -59,9 +55,43 @@
          </ul>
       </nav>
    </header>
-   <main></main>
+   <main class="container">
+      <section class="hero">
+         <div class="hero__description">
+            <h1 class="hero__description__title">Olá, meu nome é Carlos Eduardo <br> e construo páginas web</h1>
+            <p class="hero__description__description">
+               Eu sou formada em analise e desenvolvimento de sistemas e atualmente
+               estou participando no projeto Oracle ONE na Alura.
+            </p>
+            <ul class="hero__description__socials__list">
+               <li class="hero__description__social__item">
+                  <a class="hero__description__social__link" href="https://github.com/carloseduardovdeoliveira/">
+                     Github ↗
+                  </a>
+               </li>
+               <li class="hero__description__social__item">
+                  <a class="hero__description__social__link" href="https://github.com/carloseduardovdeoliveira/">
+                     Linkedin ↗
+                  </a>
+               </li>
+               <li class="hero__description__social__item">
+                  <a class="hero__description__social__link" href="https://github.com/carloseduardovdeoliveira/">
+                     Instagram ↗
+                  </a>
+               </li>
+               <li class="hero__description__social__item">
+                  <a class="hero__description__social__link" href="https://github.com/carloseduardovdeoliveira/">
+                     Currículo ↗
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <img class="hero__image" src="https://github.com/carloseduardovdeoliveira.png" alt="" />
+      </section>
+   </main>
    <footer></footer>
    <script src="./scripts/script.js"></script>
    <script src="./scripts/dark-mode.js"></script>
 </body>
+
 </html>
