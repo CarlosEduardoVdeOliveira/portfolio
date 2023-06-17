@@ -1,0 +1,30 @@
+@import url('./menu-logo.css');
+@import url('./menu-logo-image.css');
+@import url('./menu-logo-title.css');
+@import url('./menu-container.css');
+@import url('./menu-container-list.css');
+@import url('./menu-container-item.css');
+@import url('./menu-container-link.css');
+
+.menu{
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   align-items: center;
+   padding: 2rem 9rem;
+   width: 100vw;
+   border-bottom: 1px solid var(--gray-100);
+}
+
+@media screen and (max-width: 1080px) {
+   .menu{
+      padding: 2rem;
+   }
+
+}
+
+@media screen and (max-width: 768px) {
+   .menu{
+      padding: 1rem;
+   }
+}

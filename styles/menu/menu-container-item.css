@@ -1,0 +1,30 @@
+.menu__container__item{
+   margin-right: 1rem;
+}
+
+.menu__container__item:last-child{
+   margin-right: 0rem;
+}
+
+@media screen and (max-width: 1190px) {
+   .menu__container__item {
+      margin-right: 1;
+   }
+}
+@media screen and (max-width: 768px) {
+   .menu__container__item:not(:last-child){
+      display: none;
+   }
+   .menu__container__item {
+      margin-right: 0;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .menu__container__item:not(:last-child) {
+      display: none;
+   }
+   .menu__container__item {
+      margin-right: 0;
+   }
+}
