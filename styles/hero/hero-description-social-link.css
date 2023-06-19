@@ -2,11 +2,11 @@
    font-weight: 500;
    transition: all .2s ease-in-out;
 }
-
+.arrow__top__right{
+   font-weight: 700;
+}
 .hero__description__social__link:hover{
    color: var(--blue-500);
-   outline-style: dashed;
-   outline-width: 1px;
-   outline-color: var(--blue-300);
+   outline: 1px dashed var(--blue-500);
    outline-offset: 2px;
 }

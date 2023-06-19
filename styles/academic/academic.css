@@ -1,0 +1,12 @@
+@import url('./academic-container.css');
+@import url('./academic-item.css');
+@import url('./academic-image.css');
+@import url('./academic-footer.css');
+@import url('./academic-footer-title.css');
+@import url('./academic-footer-date.css');
+
+.academic{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}

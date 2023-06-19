@@ -1,0 +1,6 @@
+.about__container{
+   display: flex;
+   flex-direction: column;
+   width: calc(100% - 18.75rem);
+   gap: 1rem;
+}

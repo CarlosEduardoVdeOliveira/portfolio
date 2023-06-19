@@ -1,0 +1,14 @@
+@import url('./xp/xp.css');
+@import url('./xp/xp-title.css');
+@import url('./xp/xp-list.css');
+@import url('./xp/xp-item.css');
+@import url('./xp/xp-image.css');
+@import url('./xp/xp-description.css');
+@import url('./xp/xp-description-title.css');
+@import url('./xp/xp-description-paragraph.css');
+@import url('./xp/xp-description-buttons.css');
+
+.xps{
+   text-align: center;
+   margin-bottom: 2rem;
+}

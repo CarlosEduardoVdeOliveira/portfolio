@@ -1,0 +1,12 @@
+@import url('./skill/skills-title.css');
+@import url('./skill/skills-list.css');
+@import url('./skill/skill.css');
+@import url('./skill/skill-icon.css');
+@import url('./skill/skill-title.css');
+.skills{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   flex-wrap: wrap;
+   margin-bottom: calc(5.5rem - 2rem);
+}

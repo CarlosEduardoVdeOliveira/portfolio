@@ -1,0 +1,27 @@
+.academic__image--one{
+   width: 18.75rem;
+   height: 15.625rem;
+   background-image: url("../../assets/images/one.png");
+   /* background-size: 70px 70px; */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:  contain;
+}
+.academic__image--tec{
+   width: 18.75rem;
+   height: 15.625rem;
+   background-image: url("../../assets/images/ifnmg.png");
+   /* background-size: 70px 70px; */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:  contain;
+}
+.academic__image--analysis{
+   width: 18.75rem;
+   height: 15.625rem;
+   background-image: url("../../assets/images/ifnmg.png");
+   /* background-size: 70px 70px; */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:  contain;
+}

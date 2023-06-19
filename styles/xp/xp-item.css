@@ -1,0 +1,9 @@
+.xp__item{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 4rem;   
+}
+.xp__item:nth-child(2n){
+   flex-direction: row-reverse;
+}
