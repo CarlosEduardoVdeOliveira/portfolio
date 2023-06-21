@@ -1,0 +1,19 @@
+.contact__image{
+   background-image: url('../../assets/contact__image.svg');
+   width: 29rem;
+   margin-right: 1rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+
+@media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 768px) {
+   .contact__image{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 368px) {}

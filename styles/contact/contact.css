@@ -1,0 +1,15 @@
+@import url('./contact-container.css');
+@import url('./contact-image.css');
+@import url('./contact-title.css');
+@import url('./contact-paragraph.css');
+@import url('./contact-form.css');
+@import url('./contact-label.css');
+@import url('./contact-input.css');
+@import url('./contact-textarea.css');
+@import url('./button-submit.css');
+
+.contact{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

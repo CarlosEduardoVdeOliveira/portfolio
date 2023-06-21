@@ -17,11 +17,13 @@
    .hero {
       align-items: start;
       justify-content: left;
-      padding: 0;
    }
 }
 
 @media screen and (max-width: 768px) {
+   
+}
+@media screen and (max-width: 368px) {
    .hero {
       flex-direction: column-reverse;
    }

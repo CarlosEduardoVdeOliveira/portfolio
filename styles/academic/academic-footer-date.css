@@ -1,3 +1,9 @@
 .academic__footer__date{
    font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+   .academic__footer__date {
+      font-size: 0.875rem;
+   }
+}

@@ -4,3 +4,13 @@
    top: 0;
    left: 0;
 }
+
+@media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 768px) {
+   .footer {
+      padding: 1rem;
+   }
+}
+
+@media screen and (max-width: 368px) {}

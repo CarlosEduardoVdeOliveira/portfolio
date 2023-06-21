@@ -3,4 +3,21 @@
    margin-top: 2rem;
    /* padding: 4.875rem 5.5rem; */
    background-color: var(--white);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
 }
+
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 768px) {
+   .academic__item{
+      width: 14rem;
+      height: 7.375rem;
+      padding-top: 2.5rem;
+   }
+}
+
+@media screen and (max-width: 368px) {}

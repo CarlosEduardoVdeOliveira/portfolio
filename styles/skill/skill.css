@@ -1,8 +1,18 @@
 .skill{
    display: flex;
    flex-direction: column;
+   width: 11rem;
    align-items: flex-start;
    text-align: left;
-   flex-grow: 1;
+   flex-wrap: wrap;
    gap: .5rem;
+}
+
+@media screen and (max-width: 1080px) {
+   .skill{padding-bottom: 2rem;}
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 368px) {
 }

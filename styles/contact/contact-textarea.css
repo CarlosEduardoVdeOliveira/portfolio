@@ -1,0 +1,18 @@
+.contact__textarea{
+   width: 41rem;
+   height: 8.313rem;
+   resize: none;
+   padding: 1rem;
+}
+
+.contact__textarea + span,
+.contact__textarea:not(:placeholder-shown)+span{
+   position: absolute;
+   padding-top: 1.4rem;
+   padding-left: 1rem;
+   transition: all ease-out .5s;
+}
+
+.contact__textarea:focus+span {
+   padding-top: 0.15rem;
+}

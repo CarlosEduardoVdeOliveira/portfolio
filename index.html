@@ -48,22 +48,22 @@
       <nav class="menu__container">
          <ul class="menu__container__list">
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#sobre"> Sobre mim </a>
+               <a class="menu__container__link" href="#about"> Sobre mim </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#skils"> Skils </a>
+               <a class="menu__container__link" href="#skills"> Skils </a>
             </li>
             <li class="menu__container__item">
                <a class="menu__container__link" href="#hobbies"> Hobbies </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#formações"> Formações </a>
+               <a class="menu__container__link" href="#academic"> Formações </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#projetos"> Projetos </a>
+               <a class="menu__container__link" href="#xp"> Projetos </a>
             </li>
             <li class="menu__container__item">
-               <a class="menu__container__link" href="#contato">
+               <a class="menu__container__link" href="#contact">
                   contato@carlos.com
                </a>
             </li>
@@ -71,7 +71,7 @@
       </nav>
    </header>
    <main class="content">
-      <section class="hero container">
+      <section id="#hero" class="hero container">
          <div class="hero__description">
             <h1 class="hero__description__title">Olá, meu nome é Carlos Eduardo e construo páginas web</h1>
             <h3 class="hero__description__description">
@@ -108,7 +108,7 @@
          <img class="hero__image" 
          src="https://github.com/carloseduardovdeoliveira.png" alt="" />
       </section>
-      <section class="about container__full__blue">
+      <section id="#about" class="about container__full__blue">
          <div class="about__container container">
             <h2 class="about__title">Sobre mim</h2>
             <p class="about__paragraph">
@@ -127,7 +127,7 @@
             <img class="about__image" src="./assets/images/signature.png" alt="">
          </div>
       </section>
-      <section class="skills container">
+      <section id="#skills" class="skills container">
          <h2 class="skills__title">Skils</h2>
          <ul class="skills__list">
             <li class="skill">
@@ -156,7 +156,7 @@
             </li>
          </ul>
       </section>
-      <section class="skills container">
+      <section id="#hobbies" class="skills container">
          <h2 class="hobbies__title">Hobbies</h2>
          <ul class="skills__list">
             <li class="skill">
@@ -185,26 +185,26 @@
             </li>
          </ul>
       </section>
-      <section class="academic container__full__blue">
+      <section id="#academic" class="academic container__full__blue">
          <div class="container">
             <h2>Formação acadêmica</h2>
             <div class="academic__container">
                <div class="academic__item">
-                  <div class="academic__image--one"></div>
+                  <div class="academic__image academic__image--one"></div>
                   <div class="academic__footer">
                      <h3 class="academic__footer__title">Font-end</h3>
                      <span class="academic__footer__date">2023 - Alura</span>
                   </div>
                </div>
                <div class="academic__item">
-                  <div class="academic__image--tec"></div>
+                  <div class="academic__image academic__image--tec"></div>
                   <div class="academic__footer">
                      <h3 class="academic__footer__title">Técnico em Informática</h3>
                      <span class="academic__footer__date">2013 - IFNMG</span>
                   </div>
                </div>
                <div class="academic__item">
-                  <div class="academic__image--analysis"></div>
+                  <div class="academic__image academic__image--analysis"></div>
                   <div class="academic__footer">
                      <h3 class="academic__footer__title">Analise e dev. de sistemas</h3>
                      <span class="academic__footer__date">2023 - IFNMG</span>
@@ -213,7 +213,7 @@
             </div>
          </div>
       </section>
-      <section class="xps container">
+      <section id="#xp" class="xps container">
          <h2 class="xp__title">Experiência profissional</h2>
          <div class="xp">
             <ul class="xp__list">
@@ -267,29 +267,33 @@
             </ul>
          </div>
       </section>
-      <section class="contact container__full__blue">
-         <div class="contact__container container">
+      <section id="#contact" class="contact container__full__blue">
+         <div class="contact__container">
             <div class="contact__image"></div>
             <form class="contact__form">
                <h2 class="contact__title">Contato</h2>
-               <span class="contact__paragraph">Quer entrar em contato comigo?</span>
-               <span class="contact__paragraph">
+               <p class="contact__paragraph">
+                  Quer entrar em contato comigo? <br>
                   Preencha o formulário ao lado e entrarei em contato o mais 
                   rápido possível.
-               </span>
-               <label class="contact__label" for="name" name="name" id="name">
-                  <input class="contact__input" type="text" name="name" id="name" placeholder="Nome" required>
+               </p>
+               <label class="contact__label" for="name">
+                  <input class="contact__input" type="text" id="name" required>
+                  <span>Nome</span>
                </label>
-               <label class="contact__label" for="email" name="email" id="email">
-                  <input class="contact__input" type="email" name="email" id="email" required>
+               <label class="contact__label" for="email">
+                  <input class="contact__input" type="email" id="email" required>
+                  <span>Email</span>
                </label>
-               <label class="contact__label" for="subject" name="subject" id="subject">
-                  <input class="contact__input" type="text" name="subject" id="subject" required>
+               <label class=" isValue__label" for="subject">
+                  <input class=" isValue__input" type="text" id="subject" required>
+                  <span>Assunto</span>
                </label>
-               <label class="contact__label" for="message" name="message" id="message">
-                  <textarea class="contact__textarea" name="message" id="message" required placeholder="Mensagem"></textarea>
+               <label class="contact__label" for="message">
+                  <textarea class="contact__textarea" id="message" required></textarea>
+                  <span>Mensagem</span>
                </label>
-               <button class="btn btn--blue" type="submit">Enviar mensagem</button>
+               <button class="btn button__submit btn--blue" type="submit">Enviar mensagem</button>
             </form>
          </div>
       </section>

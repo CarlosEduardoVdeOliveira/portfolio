@@ -1,0 +1,36 @@
+.contact__input{
+   width: 41rem;
+   height: 3rem;
+   padding-left: 1rem;
+}
+
+.contact__input + span,
+.contact__input:not(:placeholder-shown)+span{
+   position: absolute;
+   padding-top: 1rem;
+   padding-left: 1rem;
+   transition: all ease-out .5s;
+}
+
+.contact__input:focus+span, .contact__input{
+   padding-top: 0.15rem;
+}
+
+/* value */
+.isValue__input {
+   width: 41rem;
+   height: 3rem;
+   padding-left: 1rem;
+}
+
+.isValue__input+span{
+   position: absolute;
+   padding-top: 1rem;
+   padding-left: 1rem;
+   transition: all ease-out .5s;
+}
+
+.isValue__input+span,
+.isValue__input {
+   padding-top: 0.15rem;
+}

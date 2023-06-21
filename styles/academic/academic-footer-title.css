@@ -1,3 +1,13 @@
 .academic__footer__title{
    margin-bottom: .5rem;
 }
+
+@media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 768px) {
+   .academic__footer__title{
+      font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 368px) {}

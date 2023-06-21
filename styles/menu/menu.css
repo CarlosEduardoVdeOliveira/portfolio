@@ -20,3 +20,14 @@
    z-index: 1;
 }
 
+@media screen and (max-width: 1080px) {
+   .menu{
+      padding: 2rem 1rem;
+   }
+}
+@media screen and (max-width: 768px) {
+   .menu{
+      padding: 1rem;
+   }
+}
+
