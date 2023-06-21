@@ -3,6 +3,7 @@
    height: 8.313rem;
    resize: none;
    padding: 1rem;
+   width: 100%;
 }
 
 .contact__textarea + span,
@@ -15,4 +16,12 @@
 
 .contact__textarea:focus+span {
    padding-top: 0.15rem;
+}
+
+@media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 368px) {
+   
 }
