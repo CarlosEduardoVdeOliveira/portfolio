@@ -3,8 +3,9 @@
    align-items: center;
    justify-content: center;
    flex-wrap: wrap;
+   margin-bottom: 5rem;
    margin-top: 5rem;
-   gap: 2rem;
+   row-gap: 5rem;
 }
 
 @media screen and (max-width: 1080px) {

@@ -10,3 +10,9 @@
    outline: 1px dashed var(--blue-500);
    outline-offset: 2px;
 }
+
+@media screen and (max-width: 374px) {
+   .hero__description__social__link{
+      font-size: 95.5%;
+   }
+}

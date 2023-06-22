@@ -8,7 +8,12 @@
       width: 9.125rem;
    }
 }
+@media screen and (max-width: 530px) {
+   .hero__image {
+      margin-bottom: 2rem;
+   }
 
+}
 @media screen and (max-width: 368px) {
    .hero__image {
       width: 6.125rem;

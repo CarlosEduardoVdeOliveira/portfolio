@@ -2,14 +2,19 @@
    display: flex;
    flex-direction: column;
    width: 11rem;
+   margin-right: 1rem;
    align-items: flex-start;
    text-align: left;
    flex-wrap: wrap;
-   gap: .5rem;
+   gap: 1rem;
 }
-
+.skill:last-child{
+   margin-right: 0;
+}
 @media screen and (max-width: 1080px) {
-   .skill{padding-bottom: 2rem;}
+   .skill{
+      padding-bottom: 2rem;
+   }
 }
 
 @media screen and (max-width: 768px) {}

@@ -20,7 +20,10 @@
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 530px) {
+   .hero {
+      flex-direction: column-reverse;
+   }
    
 }
 @media screen and (max-width: 368px) {
