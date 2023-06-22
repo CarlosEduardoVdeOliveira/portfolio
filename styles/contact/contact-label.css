@@ -7,6 +7,7 @@
    color: var(--gray-300);
    font-size: 1rem;
    padding-top: 0.5rem;
+   margin-bottom: 2rem;
 }
 
 .contact__label:focus-within {
@@ -24,10 +25,16 @@
    color: var(--gray-300);
    font-size: 1rem;
    padding-top: 0.5rem;
+   margin-bottom: 2rem;
 }
 
 .isValue__label:not(:focus) {
    border-bottom: 3px solid var(--gray-300);
    color: var(--gray-300);
+   font-size: 0.75rem;
+}
+.isValue__label:focus-within {
+   border-bottom: 3px solid var(--blue-500);
+   color: var(--blue-500);
    font-size: 0.75rem;
 }
