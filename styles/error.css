@@ -1,0 +1,4 @@
+.error {
+  color: var(--red-500);
+  margin-bottom: 2rem;
+}

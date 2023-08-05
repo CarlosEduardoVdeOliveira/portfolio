@@ -1,0 +1,32 @@
+.form__group {
+   display: flex;
+   flex-direction: column;
+   margin: 1rem 0;
+   position: relative;
+}
+
+
+
+
+/* 
+
+
+input.inputName:focus,
+input.inputName:valid {
+   border-bottom: 3px solid var(--blue-500);
+}
+
+
+.inputName:focus~label.labelInputName,
+.inputName:valid~label.labelInputName {
+   transform: translateY(16rem);
+   font-size: 0.75rem;
+   color: var(--blue-500);
+} */
+
+
+@media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 760px) {}
+
+@media screen and (max-width: 360px) {}

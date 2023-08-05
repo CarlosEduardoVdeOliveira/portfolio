@@ -9,4 +9,5 @@
    text-align: center;
    display: flex;
    flex-direction: column;
+   padding-top: 5.5rem;
 }

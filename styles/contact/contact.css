@@ -3,12 +3,15 @@
 @import url('./contact-title.css');
 @import url('./contact-paragraph.css');
 @import url('./contact-form.css');
-@import url('./contact-label.css');
-@import url('./contact-input.css');
-@import url('./contact-textarea.css');
+@import url('./contact-group-input.css');
+@import url('./contact-group-label-textarea.css');
+@import url('./contact-group-label.css');
+@import url('./contact-group-textarea.css');
+@import url('./contact-group.css');
+
 @import url('./button-submit.css');
 
-.contact{
+.contact {
    display: flex;
    align-items: center;
    justify-content: center;

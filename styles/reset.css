@@ -7,12 +7,17 @@
    --gray-300: #A2A2A2;
    --gray-500: #464646;
    --white: #F5F5F5;
+
+   --green-500: #0bb30b;
+   --yellow-500: #dbd811;
+   --red-500: #eb4545;
 }
 
 * {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   scroll-behavior: smooth;
 }
 
 html,
@@ -31,12 +36,13 @@ a {
 h2 {
    font-size: 2rem;
 }
+
 h3 {
    font-size: 1.375rem;
 }
 
 ol,
-ul{
+ul {
    list-style: none;
 }
 
@@ -70,6 +76,7 @@ a {
       font-size: 87.5%;
    }
 }
+
 @media (max-width: 360px) {
    html {
       font-size: 75.0%;
