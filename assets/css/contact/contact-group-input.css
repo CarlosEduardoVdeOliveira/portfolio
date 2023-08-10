@@ -11,7 +11,3 @@
 .form__group--input:valid {
   border-bottom: 2px solid var(--blue-500);
 }
-
-.form__group--input:invalid {
-  border-bottom: 2px solid var(--red-500);
-}

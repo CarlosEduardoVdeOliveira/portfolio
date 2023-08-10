@@ -8,35 +8,37 @@
    <link rel="preconnect" href="https://fonts.googleapis.com" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="icon" type="image/png" href="./assets/icon.svg" />
+   <link rel="icon" type="image/png" href="./assets/images/icon.svg" />
    <!-- Reset css -->
-   <link rel="stylesheet" href="./styles/reset.css" />
+   <link rel="stylesheet" href="./assets/css/reset.css" />
    <!-- Container -->
-   <link rel="stylesheet" href="./styles/main.css" />
+   <link rel="stylesheet" href="./assets/css/main.css" />
    <!-- Menu css -->
-   <link rel="stylesheet" href="./styles/menu/menu.css" />
+   <link rel="stylesheet" href="./assets/css/menu/menu.css" />
    <!-- Hero css -->
-   <link rel="stylesheet" href="./styles/hero/hero.css">
+   <link rel="stylesheet" href="./assets/css/hero/hero.css">
    <!-- About -->
-   <link rel="stylesheet" href="./styles/about/about.css">
+   <link rel="stylesheet" href="./assets/css/about/about.css">
    <!-- Skills -->
-   <link rel="stylesheet" href="./styles/skills.css">
+   <link rel="stylesheet" href="./assets/css/skills.css">
    <!-- Hobbies -->
-   <link rel="stylesheet" href="./styles/hobbies.css">
+   <link rel="stylesheet" href="./assets/css/hobbies.css">
    <!-- Academic -->
-   <link rel="stylesheet" href="./styles/academic/academic.css">
+   <link rel="stylesheet" href="./assets/css/academic/academic.css">
    <!-- Experiences -->
-   <link rel="stylesheet" href="./styles/xps.css">
+   <link rel="stylesheet" href="./assets/css/xps.css">
    <!-- Contact -->
-   <link rel="stylesheet" href="./styles/contact/contact.css">
+   <link rel="stylesheet" href="./assets/css/contact/contact.css">
    <!-- Footer -->
-   <link rel="stylesheet" href="./styles/footer.css">
+   <link rel="stylesheet" href="./assets/css/footer.css">
    <!-- ERROR -->
-   <link rel="stylesheet" href="./styles/error.css">
+   <link rel="stylesheet" href="./assets/css/error.css">
 
    <title>Carlos Eduardo</title>
 </head>
@@ -44,7 +46,7 @@
 <body>
    <header class="menu container">
       <div class="menu__logo">
-         <img class="menu__logo__image" src="./assets/logo.svg"
+         <img class="menu__logo__image" src="./assets/images/logo.svg"
             alt="Homem branco, com barba preta e cabelo castanho escuro." />
          <p class="menu__logo__title">Carlos Eduardo</p>
       </div>
@@ -269,7 +271,7 @@
       <section id="contact" class="contact container__full__blue">
          <div class="contact__container container">
             <div class="contact__image"></div>
-            <form class="contact__form">
+            <form class="contact__form" data-form>
                <h2 class="contact__title">Contato</h2>
                <p class="contact__paragraph">
                   Quer entrar em contato comigo? <br>
@@ -277,29 +279,30 @@
                   rápido possível.
                </p>
                <div class="form__group">
-                  <input id="name" name="name" type="text" class="form__group--input" required data-input minlength="3">
+                  <input id="name" name="name" type="text" class="form__group--input" required data-input="name"
+                     minlength="3">
                   <label for="name" class="form__group--label">Nome</label>
                   <span class="error"></span>
                </div>
                <div class="form__group">
-                  <input id="email" name="email" type="email" class="form__group--input" required data-input
+                  <input id="email" name="email" type="email" class="form__group--input" required data-input="email"
                      minlength="3">
                   <label for="email" class="form__group--label">Email</label>
                   <span class="error"></span>
                </div>
                <div class="form__group">
-                  <input id="subject" name="subject" type="text" class="form__group--input" required data-input
-                     minlength="3">
+                  <input id="subject" name="subject" type="text" class="form__group--input" required
+                     data-input="subject" minlength="3">
                   <label for="subject" class="form__group--label">Assunto</label>
                   <span class="error"></span>
                </div>
                <div class="form__group form__group__textarea" data-group-input>
-                  <textarea id="mensage" name="message" class="form__group--textarea" type="text" required data-input
-                     minlength="3" maxlength="120"></textarea>
+                  <textarea id="mensage" name="message" class="form__group--textarea" type="text" required
+                     data-input="message" minlength="3" maxlength="500"></textarea>
                   <label for="message" class="form__group--label--textarea">Mensagem</label>
                   <span class="error"></span>
                </div>
-               <button class="btn button__submit btn--blue" type="submit">Enviar mensagem</button>
+               <button class="btn button__submit btn--blue" type="submit" data-button>Enviar mensagem</button>
             </form>
          </div>
       </section>
@@ -309,8 +312,9 @@
       2021
    </footer>
    <script src="https://kit.fontawesome.com/da2f0afed7.js" crossorigin="anonymous"></script>
-   <script src="./js/script.js"></script>
-   <script src="./js/apiGithub.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script src="./assets/js/script.js"></script>
+   <script src="./assets/js/apiGithub.js"></script>
 </body>
 
 </html>

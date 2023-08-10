@@ -1,4 +1,4 @@
-.academic__image{
+.academic__image {
    width: 18.75rem;
    height: 15.625rem;
    /* background-size: 70px 70px; */
@@ -6,23 +6,26 @@
    background-position: center;
    background-size: contain;
 }
-.academic__image--one{
-   background-image: url("../../assets/images/one.png");
+
+.academic__image--one {
+   background-image: url("../../images/one.png");
    /* background-size: 70px 70px; */
 }
-.academic__image--tec{
-   background-image: url("../../assets/images/ifnmg.png");
+
+.academic__image--tec {
+   background-image: url("../../images/ifnmg.png");
    /* background-size: 70px 70px; */
 }
-.academic__image--analysis{
-   background-image: url("../../assets/images/ifnmg.png");
+
+.academic__image--analysis {
+   background-image: url("../../images/ifnmg.png");
    /* background-size: 70px 70px; */
 }
 
 @media screen and (max-width: 1080px) {}
 
 @media screen and (max-width: 768px) {
-   .academic__image{
+   .academic__image {
       width: 5.25rem;
       padding: 3rem;
       align-self: center;

@@ -1,11 +1,8 @@
-.contact__image{
-   background-image: url('../../assets/images/telefone.png');
+.contact__image {
+   background: url('../../images/telefone.png') center/cover no-repeat;
    width: 29rem;
    height: 37.063rem;
    margin-right: 1rem;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
    align-self: center;
 }
 
@@ -13,7 +10,7 @@
 @media screen and (max-width: 1080px) {}
 
 @media screen and (max-width: 768px) {
-   .contact__image{
+   .contact__image {
       display: none;
    }
 }

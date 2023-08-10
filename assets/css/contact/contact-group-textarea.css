@@ -16,10 +16,6 @@
    border-bottom: 2px solid var(--blue-500);
 }
 
-.form__group--textarea:invalid {
-   border-bottom: 2px solid var(--red-500);
-}
-
 @media screen and (max-width: 1080px) {}
 
 @media screen and (max-width: 760px) {}
